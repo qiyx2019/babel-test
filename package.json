@@ -10,12 +10,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies":{},
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
   "devDependencies": {
     "@babel/cli": "^7.17.3",
     "@babel/core": "^7.17.5",
     "@babel/generator": "^7.17.3",
     "@babel/parser": "^7.17.3",
+    "@babel/template": "^7.16.7",
     "@babel/traverse": "^7.17.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
